@@ -88,7 +88,7 @@ class SpotifyMusicPlayer {
         this.currentGenre = null;
         
         // Инициализация
-        this.loadAllData(fetch('music.json'));
+        this.loadAllData();
         this.setupEventListeners();
         this.loadFavorites();
         this.loadHistory();
@@ -111,18 +111,18 @@ class SpotifyMusicPlayer {
                         "src": "assets/music/track1.mp3",
                         "cover": "assets/covers/cover1.jpg",
                         "duration": 117,
-                        "genre": "Электроника",
+                        "genre": "Чилаут",
                         "year": 2026
                     },
                     {
                         "id": 2,
-                        "title": "Моя песня",
-                        "artist": "Ты",
+                        "title": "Спокойная ночь",
+                        "artist": "КИНО",
                         "src": "assets/music/track2.mp3",
                         "cover": "assets/covers/cover2.jpg",
-                        "duration": 180,
-                        "genre": "Поп",
-                        "year": 2026
+                        "duration": 375,
+                        "genre": "Электроника",
+                        "year": 1986
                     }
                 ],
                 "genres": [
