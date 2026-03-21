@@ -154,6 +154,26 @@ class SpotifyMusicPlayer {
                         "genre": "Чилаут",
                         "year": 2026
                     },
+                    {
+                        "id": 6,
+                        "title": "PULSE",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track6.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 138,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 7,
+                        "title": "DICE",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track7.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 145,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    }
                 ],
                 "genres": [
                     { "name": "Электроника", "icon": "⚡", "color": "#00d4ff" },
