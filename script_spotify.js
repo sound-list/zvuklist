@@ -133,6 +133,16 @@ class SpotifyMusicPlayer {
                         "duration": 117,
                         "genre": "Чилаут",
                         "year": 2026
+                    },
+                    {
+                        "id": 4,
+                        "title": "NAIVE",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track4.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 109,
+                        "genre": "Чилаут",
+                        "year": 2026
                     }
                 ],
                 "genres": [
