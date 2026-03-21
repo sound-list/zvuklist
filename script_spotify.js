@@ -143,7 +143,17 @@ class SpotifyMusicPlayer {
                         "duration": 109,
                         "genre": "Чилаут",
                         "year": 2026
-                    }
+                    },
+                    {
+                        "id": 5,
+                        "title": "VIBRACO",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track5.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 93,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
                 ],
                 "genres": [
                     { "name": "Электроника", "icon": "⚡", "color": "#00d4ff" },
