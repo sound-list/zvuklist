@@ -88,7 +88,7 @@ class SpotifyMusicPlayer {
         this.currentGenre = null;
         
         // Инициализация
-        this.loadAllData();
+        this.loadAllData(fetch('music.json'));
         this.setupEventListeners();
         this.loadFavorites();
         this.loadHistory();
