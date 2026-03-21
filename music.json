@@ -12,8 +12,8 @@
     },
     {
       "id": 2,
-      "title": "Спокойная ночь",
-      "artist": "КИНО",
+      "title": "Моя песня",
+      "artist": "Ты",
       "src": "assets/music/track2.mp3",
       "cover": "assets/covers/cover2.jpg",
       "duration": 375,
