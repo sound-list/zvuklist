@@ -7,7 +7,7 @@
       "src": "assets/music/track1.mp3",
       "cover": "assets/covers/cover1.jpg",
       "duration": 117,
-      "genre": "Чилаут",
+      "genre": "Электроника",
       "year": 2026
     },
     {
@@ -16,9 +16,9 @@
       "artist": "КИНО",
       "src": "assets/music/track2.mp3",
       "cover": "assets/covers/cover2.jpg",
-      "duration": 375,
+      "duration": 0,
       "genre": "Электроника",
-      "year": 1986
+      "year": 2026
     }
   ],
   "genres": [
