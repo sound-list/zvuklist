@@ -1,0 +1,58 @@
+{
+  "tracks": [
+    {
+      "id": 1,
+      "title": "PURE / UTOPIA",
+      "artist": "UdieNnx",
+      "src": "assets/music/track1.mp3",
+      "cover": "assets/covers/cover1.jpg",
+      "duration": 117,
+      "genre": "Чилаут",
+      "year": 2026
+    },
+    {
+      "id": 2,
+      "title": "Спокойная ночь",
+      "artist": "КИНО",
+      "src": "assets/music/track2.mp3",
+      "cover": "assets/covers/cover2.jpg",
+      "duration": 375,
+      "genre": "Электроника",
+      "year": 1986
+    }
+  ],
+  "genres": [
+    { "name": "Электроника", "icon": "⚡", "color": "#00d4ff" },
+    { "name": "Поп", "icon": "🎤", "color": "#ff4d6d" },
+    { "name": "Релакс", "icon": "🧘", "color": "#00ff7f" },
+    { "name": "Синтезаторная музыка", "icon": "🎹", "color": "#d46bff" },
+    { "name": "Чилаут", "icon": "😎", "color": "#ffb700" },
+    { "name": "Деньбыва", "icon": "🌅", "color": "#ff7a3d" }
+  ],
+  "playlists": [
+    {
+      "id": 1,
+      "name": "Мои личные треки",
+      "description": "Личный плейлист любимой музыки",
+      "tracks": [1, 3, 5],
+      "cover": "assets/covers/cover1.jpg",
+      "created": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "name": "Электро поп микс",
+      "description": "Энергичная электроника и поп",
+      "tracks": [1, 2, 4, 7],
+      "cover": "assets/covers/cover3.jpg",
+      "created": "2024-02-01"
+    },
+    {
+      "id": 3,
+      "name": "Для медитации",
+      "description": "Спокойная музыка для релаксации",
+      "tracks": [3, 6, 8],
+      "cover": "assets/covers/cover4.jpg",
+      "created": "2024-02-10"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗвукЛист - прослушивание музыки</title>
+    <link rel="stylesheet" href="style_spotify.css">
+</head>
+<body>
+    <!-- Боковое меню (Sidebar) -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h1 class="app-title">🎧 ЗвукЛист</h1>
+        </div>
+
+        <nav class="sidebar-nav">
+            <button class="nav-btn active" data-section="home">
+                🏠 Главная
+            </button>
+            <button class="nav-btn" data-section="search">
+                🔍 Поиск
+            </button>
+            <button class="nav-btn" data-section="recommendations">
+                ⭐ Рекомендации
+            </button>
+            <button class="nav-btn" data-section="categories">
+                🎵 Категории
+            </button>
+            <button class="nav-btn" data-section="playlists">
+                📋 Плейлисты
+            </button>
+            <button class="nav-btn" data-section="history">
+                ⏱️ История
+            </button>
+            <button class="nav-btn" data-section="favorites">
+                ❤️ Избранное
+            </button>
+        </nav>
+
+        <div class="sidebar-footer">
+            <button id="themeBtn" class="sidebar-btn">
+                🌙 Тема (кнопка не работает)
+            </button>
+        </div>
+    </aside>
+
+    <!-- Главное содержимое -->
+    <div class="main-content">
+        <!-- Панель поиска в заголовке -->
+        <div class="top-bar">
+            <button id="menuBtn" class="menu-btn">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </button>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Поиск песни, исполнителя...">
+                <div id="searchResults" class="search-results hidden"></div>
+            </div>
+        </div>
+
+        <!-- Контейнер для контента -->
+        <div class="container">
+
+            <!-- ===== ГЛАВНАЯ СТРАНИЦА ===== -->
+            <section id="home-section" class="section active">
+
+                <!-- Плеер -->
+                <div class="player">
+                    <!-- Обложка трека -->
+                    <div class="cover-container">
+                        <img id="trackCover" class="cover" src="assets/covers/cover1.jpg" alt="Обложка трека">
+                        <div class="equalizer">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    <!-- Информация о треке -->
+                    <div class="track-info">
+                        <h2 id="trackTitle">Название трека</h2>
+                        <p id="trackArtist">Исполнитель</p>
+                    </div>
+
+                    <!-- Аудиоэлемент -->
+                    <audio id="audioPlayer"></audio>
+
+                    <!-- Прогресс-бар -->
+                    <div class="progress-container">
+                        <span id="currentTime" class="time">0:00</span>
+                        <div class="progress-bar">
+                            <div id="progressFill" class="progress-fill"></div>
+                            <input type="range" id="progressSlider" min="0" max="100" value="0">
+                        </div>
+                        <span id="duration" class="time">0:00</span>
+                    </div>
+
+                    <!-- Громкость -->
+                    <div class="volume-container">
+                        <span class="volume-label">🔊</span>
+                        <input type="range" id="volumeSlider" min="0" max="100" value="70" class="volume-slider">
+                    </div>
+
+                    <!-- Кнопки управления -->
+                    <div class="controls">
+                        <button id="repeatBtn" class="control-btn" title="Повтор">
+                            🔁 <span class="btn-text">Повтор</span>
+                        </button>
+                        <button id="prevBtn" class="control-btn" title="Предыдущий трек">
+                            ⏮️ <span class="btn-text">Назад</span>
+                        </button>
+                        <button id="playBtn" class="control-btn play-btn" title="Проиграть">
+                            ▶️ <span class="btn-text">Проиграть</span>
+                        </button>
+                        <button id="nextBtn" class="control-btn" title="Следующий трек">
+                            ⏭️ <span class="btn-text">Вперед</span>
+                        </button>
+                        <button id="shuffleBtn" class="control-btn" title="Перемешивание">
+                            🔀 <span class="btn-text">Перемешивание</span>
+                        </button>
+                    </div>
+
+                    <!-- Вспомогательные кнопки -->
+                    <div class="extra-controls">
+                        <button id="favoriteBtn" class="extra-btn" title="Добавить в избранное">
+                            ♡ Избранное
+                        </button>
+                        <button id="addToPlaylistBtn" class="extra-btn" title="Добавить в плейлист">
+                            ➕ В плейлист
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Рекомендации -->
+                <div class="section-recommendations">
+                    <h3>⭐ Рекомендации для вас</h3>
+                    <div id="recommendedTracks" class="tracks-grid">
+                        <!-- Рекомендации будут загружены здесь -->
+                    </div>
+                </div>
+
+                <!-- Недавно прослушанные -->
+                <div class="section-history">
+                    <h3>⏱️ Недавно прослушанные</h3>
+                    <div id="recentlyPlayed" class="tracks-list">
+                        <!-- Недавние треки будут загружены здесь -->
+                    </div>
+                </div>
+
+                <!-- Все треки -->
+                <div class="section-all-tracks">
+                    <h3>🎧 Все треки</h3>
+                    <div id="allTracksContainer" class="tracks-grid"></div>
+                </div>
+            </section>
+
+            <!-- ===== ПОИСК ===== -->
+            <section id="search-section" class="section">
+                <div class="section-header">
+                    <h2>🔍 Поиск музыки</h2>
+                </div>
+                <div id="searchContent" class="search-content">
+                    <div class="empty-message">Введите название песни или исполнителя</div>
+                </div>
+            </section>
+
+            <!-- ===== РЕКОМЕНДАЦИИ ===== -->
+            <section id="recommendations-section" class="section">
+                <div class="section-header">
+                    <h2>⭐ Рекомендации для вас</h2>
+                    <p>На основе ваших предпочтений</p>
+                </div>
+                <div id="allRecommendations" class="tracks-grid">
+                    <!-- Все рекомендации -->
+                </div>
+            </section>
+
+            <!-- ===== КАТЕГОРИИ ===== -->
+            <section id="categories-section" class="section">
+                <div class="section-header">
+                    <h2>🎵 Категории музыки</h2>
+                </div>
+                <div id="genresContainer" class="genres-grid">
+                    <!-- Жанры будут загружены здесь -->
+                </div>
+                <div id="genreTracksContainer" class="tracks-grid hidden">
+                    <!-- Треки выбранного жанра -->
+                </div>
+            </section>
+
+            <!-- ===== ПЛЕЙЛИСТЫ ===== -->
+            <section id="playlists-section" class="section">
+                <div class="section-header">
+                    <h2>📋 Мои плейлисты</h2>
+                    <button id="createPlaylistBtn" class="btn-primary">
+                        ➕ Создать плейлист
+                    </button>
+                </div>
+                
+                <!-- Форма создания плейлиста -->
+                <div id="createPlaylistForm" class="modal hidden">
+                    <div class="modal-content">
+                        <h3>Создать новый плейлист</h3>
+                        <input type="text" id="playlistName" placeholder="Название плейлиста" class="input-field">
+                        <textarea id="playlistDesc" placeholder="Описание (опционально)" class="input-field"></textarea>
+                        <div class="modal-buttons">
+                            <button id="confirmPlaylist" class="btn-primary">Создать</button>
+                            <button id="cancelPlaylist" class="btn-secondary">Отмена</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Список плейлистов -->
+                <div id="playlistsContainer" class="playlists-grid">
+                    <!-- Плейлисты будут загружены здесь -->
+                </div>
+
+                <!-- Просмотр треков плейлиста -->
+                <div id="playlistTracksContainer" class="tracks-grid hidden">
+                    <!-- Треки плейлиста -->
+                </div>
+            </section>
+
+            <!-- ===== ИСТОРИЯ ===== -->
+            <section id="history-section" class="section">
+                <div class="section-header">
+                    <h2>⏱️ История прослушивания</h2>
+                    <button id="clearHistoryBtn" class="btn-secondary">
+                        🗑️ Очистить историю
+                    </button>
+                </div>
+                <div id="historyList" class="tracks-list">
+                    <!-- История будет загружена здесь -->
+                </div>
+            </section>
+
+            <!-- ===== ИЗБРАННОЕ ===== -->
+            <section id="favorites-section" class="section">
+                <div class="section-header">
+                    <h2>❤️ Избранные треки</h2>
+                    <button id="clearFavoritesBtn" class="btn-secondary">
+                        🗑️ Очистить избранное
+                    </button>
+                </div>
+                <div id="favoritesList" class="tracks-grid">
+                    <!-- Избранные треки будут загружены здесь -->
+                </div>
+            </section>
+
+            <!-- ===== ПОХОЖИЕ ТРЕКИ ===== -->
+            <section id="similar-section" class="section">
+                <div class="section-header">
+                    <h2>🎶 Похожие треки</h2>
+                </div>
+                <div id="similarTracks" class="tracks-grid">
+                    <!-- Похожие треки -->
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="script_spotify.js"></script>
+</body>
+</html>
