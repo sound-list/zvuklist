@@ -130,7 +130,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track3.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 375,
+                        "duration": 117,
                         "genre": "Чилаут",
                         "year": 2026
                     }
