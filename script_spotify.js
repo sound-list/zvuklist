@@ -171,7 +171,7 @@ class SpotifyMusicPlayer {
                         "src": "assets/music/track2.mp3",
                         "cover": "assets/covers/cover2.jpg",
                         "duration": 375,
-                        "genre": "Рок-н-ролл",
+                        "genre": "Электроника",
                         "year": 1986
                     },
                     {
