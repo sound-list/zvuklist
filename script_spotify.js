@@ -240,7 +240,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track14.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 161,
+                        "duration": 123,
                         "genre": "Чилаут",
                         "year": 2026
                     },
@@ -250,7 +250,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track15.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 161,
+                        "duration": 142,
                         "genre": "Чилаут",
                         "year": 2026
                     }
