@@ -241,8 +241,7 @@ class SpotifyMusicPlayer {
                     { "name": "Релакс", "icon": "🧘", "color": "#00ff7f" },
                     { "name": "Синтезаторная музыка", "icon": "🎹", "color": "#d46bff" },
                     { "name": "Чилаут", "icon": "😎", "color": "#ffb700" },
-                    { "name": "Деньбыва", "icon": "🌅", "color": "#ff7a3d" },
-                    { "name": "Рок-н-ролл", "icon": "🎸", "color": "#00d4ff" }
+                    { "name": "Деньбыва", "icon": "🌅", "color": "#ff7a3d" }
                 ],
                 "playlists": [
                     {
