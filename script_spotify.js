@@ -253,6 +253,36 @@ class SpotifyMusicPlayer {
                         "duration": 142,
                         "genre": "Чилаут",
                         "year": 2026
+                    },
+                    {
+                        "id": 16,
+                        "title": "Curse",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track16.mp3",
+                        "cover": "assets/covers/cover3.jpg",
+                        "duration": 142,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 17,
+                        "title": "Curse (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track17.mp3",
+                        "cover": "assets/covers/cover3.jpg",
+                        "duration": 142,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 18,
+                        "title": "Curse (Super Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track18.mp3",
+                        "cover": "assets/covers/cover3.jpg",
+                        "duration": 142,
+                        "genre": "Чилаут",
+                        "year": 2026
                     }
                 ],
                 "genres": [
