@@ -266,7 +266,7 @@ class SpotifyMusicPlayer {
                     },
                     {
                         "id": 17,
-                        "title": "Curse (Slowed)",
+                        "title": "Curse (Super Slowed)",
                         "artist": "UdieNnx",
                         "src": "assets/music/track17.mp3",
                         "cover": "assets/covers/cover3.jpg",
@@ -276,7 +276,7 @@ class SpotifyMusicPlayer {
                     },
                     {
                         "id": 18,
-                        "title": "Curse (Super Slowed)",
+                        "title": "Curse (Slowed)",
                         "artist": "UdieNnx",
                         "src": "assets/music/track18.mp3",
                         "cover": "assets/covers/cover3.jpg",
