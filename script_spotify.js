@@ -233,6 +233,26 @@ class SpotifyMusicPlayer {
                         "duration": 138,
                         "genre": "Чилаут",
                         "year": 2026
+                    },
+                    {
+                        "id": 14,
+                        "title": "ECLIPSE",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track14.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 161,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 15,
+                        "title": "ECLIPSE (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track15.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 161,
+                        "genre": "Чилаут",
+                        "year": 2026
                     }
                 ],
                 "genres": [
