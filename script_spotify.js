@@ -115,16 +115,6 @@ class SpotifyMusicPlayer {
                         "year": 2026
                     },
                     {
-                        "id": 7,
-                        "title": "Спокойная ночь",
-                        "artist": "КИНО",
-                        "src": "assets/music/track2.mp3",
-                        "cover": "assets/covers/cover2.jpg",
-                        "duration": 375,
-                        "genre": "Рок-н-ролл",
-                        "year": 1986
-                    },
-                    {
                         "id": 2,
                         "title": "CONSUME",
                         "artist": "UdieNnx",
@@ -173,6 +163,16 @@ class SpotifyMusicPlayer {
                         "duration": 145,
                         "genre": "Чилаут",
                         "year": 2026
+                    },
+                    {
+                        "id": 7,
+                        "title": "Спокойная ночь",
+                        "artist": "КИНО",
+                        "src": "assets/music/track2.mp3",
+                        "cover": "assets/covers/cover2.jpg",
+                        "duration": 375,
+                        "genre": "Рок-н-ролл",
+                        "year": 1986
                     },
                     {
                         "id": 8,
