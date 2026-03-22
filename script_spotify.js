@@ -180,7 +180,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track8.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 117,
+                        "duration": 135,
                         "genre": "Чилаут",
                         "year": 2026
                     },
@@ -190,7 +190,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track9.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 109,
+                        "duration": 120,
                         "genre": "Чилаут",
                         "year": 2026
                     },
@@ -200,7 +200,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track10.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 93,
+                        "duration": 103,
                         "genre": "Чилаут",
                         "year": 2026
                     },
@@ -210,7 +210,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track11.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 138,
+                        "duration": 160,
                         "genre": "Чилаут",
                         "year": 2026
                     },
@@ -220,7 +220,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track12.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 145,
+                        "duration": 161,
                         "genre": "Чилаут",
                         "year": 2026
                     },
@@ -230,7 +230,7 @@ class SpotifyMusicPlayer {
                         "artist": "UdieNnx",
                         "src": "assets/music/track13.mp3",
                         "cover": "assets/covers/cover1.jpg",
-                        "duration": 117,
+                        "duration": 138,
                         "genre": "Чилаут",
                         "year": 2026
                     }
