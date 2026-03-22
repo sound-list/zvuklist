@@ -115,7 +115,7 @@ class SpotifyMusicPlayer {
                         "year": 2026
                     },
                     {
-                        "id": 2,
+                        "id": 7,
                         "title": "Спокойная ночь",
                         "artist": "КИНО",
                         "src": "assets/music/track2.mp3",
@@ -125,7 +125,7 @@ class SpotifyMusicPlayer {
                         "year": 1986
                     },
                     {
-                        "id": 3,
+                        "id": 2,
                         "title": "CONSUME",
                         "artist": "UdieNnx",
                         "src": "assets/music/track3.mp3",
@@ -135,7 +135,7 @@ class SpotifyMusicPlayer {
                         "year": 2026
                     },
                     {
-                        "id": 4,
+                        "id": 3,
                         "title": "NAIVE",
                         "artist": "UdieNnx",
                         "src": "assets/music/track4.mp3",
@@ -145,7 +145,7 @@ class SpotifyMusicPlayer {
                         "year": 2026
                     },
                     {
-                        "id": 5,
+                        "id": 4,
                         "title": "VIBRACO",
                         "artist": "UdieNnx",
                         "src": "assets/music/track5.mp3",
@@ -155,7 +155,7 @@ class SpotifyMusicPlayer {
                         "year": 2026
                     },
                     {
-                        "id": 6,
+                        "id": 5,
                         "title": "PULSE",
                         "artist": "UdieNnx",
                         "src": "assets/music/track6.mp3",
@@ -165,7 +165,7 @@ class SpotifyMusicPlayer {
                         "year": 2026
                     },
                     {
-                        "id": 7,
+                        "id": 6,
                         "title": "DICE",
                         "artist": "UdieNnx",
                         "src": "assets/music/track7.mp3",
