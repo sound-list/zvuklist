@@ -261,7 +261,7 @@ class SpotifyMusicPlayer {
                         "src": "assets/music/track16.mp3",
                         "cover": "assets/covers/cover3.jpg",
                         "duration": 142,
-                        "genre": "Чилаут",
+                        "genre": "Синтезаторная музыка",
                         "year": 2026
                     },
                     {
@@ -271,7 +271,7 @@ class SpotifyMusicPlayer {
                         "src": "assets/music/track17.mp3",
                         "cover": "assets/covers/cover3.jpg",
                         "duration": 142,
-                        "genre": "Чилаут",
+                        "genre": "Синтезаторная музыка",
                         "year": 2026
                     },
                     {
@@ -281,7 +281,7 @@ class SpotifyMusicPlayer {
                         "src": "assets/music/track18.mp3",
                         "cover": "assets/covers/cover3.jpg",
                         "duration": 142,
-                        "genre": "Чилаут",
+                        "genre": "Синтезаторная музыка",
                         "year": 2026
                     }
                 ],
