@@ -121,7 +121,7 @@ class SpotifyMusicPlayer {
                         "src": "assets/music/track2.mp3",
                         "cover": "assets/covers/cover2.jpg",
                         "duration": 375,
-                        "genre": "Электроника",
+                        "genre": "Рок-н-ролл",
                         "year": 1986
                     },
                     {
@@ -173,6 +173,66 @@ class SpotifyMusicPlayer {
                         "duration": 145,
                         "genre": "Чилаут",
                         "year": 2026
+                    },
+                    {
+                        "id": 8,
+                        "title": "CONSUME (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track8.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 117,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 9,
+                        "title": "NAIVE (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track9.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 109,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 10,
+                        "title": "VIBRACO (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track10.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 93,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 11,
+                        "title": "PULSE (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track11.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 138,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 12,
+                        "title": "DICE (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track12.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 145,
+                        "genre": "Чилаут",
+                        "year": 2026
+                    },
+                    {
+                        "id": 13,
+                        "title": "PURE / UTOPIA (Slowed)",
+                        "artist": "UdieNnx",
+                        "src": "assets/music/track13.mp3",
+                        "cover": "assets/covers/cover1.jpg",
+                        "duration": 117,
+                        "genre": "Чилаут",
+                        "year": 2026
                     }
                 ],
                 "genres": [
@@ -182,6 +242,7 @@ class SpotifyMusicPlayer {
                     { "name": "Синтезаторная музыка", "icon": "🎹", "color": "#d46bff" },
                     { "name": "Чилаут", "icon": "😎", "color": "#ffb700" },
                     { "name": "Деньбыва", "icon": "🌅", "color": "#ff7a3d" }
+                    { "name": "Рок-н-ролл", "icon": "🎸", "color": "#00d4ff" },
                 ],
                 "playlists": [
                     {
